@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 
-<head>
-	<link rel="bookmark"  type="image/x-icon"  href="/img/logo_miccall.png"/>
+<head><meta name="generator" content="Hexo 3.8.0">
+	<link rel="bookmark" type="image/x-icon" href="/img/logo_miccall.png">
 	<link rel="shortcut icon" href="/img/logo_miccall.png">
 	
 			    <title>
@@ -71,8 +71,8 @@
 
 
 <!--  代码渲染  -->
-<link rel="stylesheet" href="/css/prism_coy.css" />
-<link rel="stylesheet" href="/css/typo.css" />
+<link rel="stylesheet" href="/css/prism_coy.css">
+<link rel="stylesheet" href="/css/typo.css">
 <!-- 文章页 -->
 <body class="is-loading">
     <!-- Wrapper 外包 s-->
@@ -138,27 +138,21 @@
 			</ul>
 </nav>
 
-        <div id="main" >
-            <div class ="post_page_title_img" style="height: 25rem;background-image: url(https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=40e1d66a55df8db1a8237436684ab631/728da9773912b31bacd01adb8d18367adbb4e180.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
-                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >事件-12-09</h2></a>
+        <div id="main">
+            <div class="post_page_title_img" style="height: 25rem;background-image: url(https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=40e1d66a55df8db1a8237436684ab631/728da9773912b31bacd01adb8d18367adbb4e180.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;">
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>事件-12-09</h2></a>
             </div>
             <!-- Post -->
             <div class="typo" style="padding: 3rem;">
                 <p>事件<br>事件是什么？</p>
 <p>事件就是文档或浏览器窗口发生的一些特定的交互瞬间，是JS和DOM之间交互的桥梁<br>事件冒泡</p>
-<p>IE的事件流叫做事件冒泡，即事件开始时由最具体的元素（文档中嵌套层次最深的那个节点）接受，然后逐级向上传播到较为不具体的节点（文档）。</p>
-<p>&lt;!DOCTYPE html&gt;</p>
-<html><br><head><meta name="generator" content="Hexo 3.8.0"><br></head><br><body><br>    <div id="myDiv">Click Me</div><br></body><br></html>
-
+<p>IE的事件流叫做事件冒泡，即事件开始时由最具体的元素（文档中嵌套层次最深的那个节点）接受，然后逐级向上传播到较为不具体的节点（文档）。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;div id=&quot;myDiv&quot;&gt;Click Me&lt;/div&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure></p>
 <p>以以上代码为例，当点击页面中的<br>元素，那么click事件会按照以下顺序传播</p>
 <p>(1) &lt; div &gt;</p>
 <p>(2) &lt; body &gt;</p>
 <p>(3) &lt; html &gt;</p>
 <p>(4) document<br>事件捕获</p>
-<p>事件捕获的思想就是不太具体的节点应该更早接收到事件，而最具体的节点应该最后接收到事件。</p>
-<p>&lt;!DOCTYPE html&gt;</p>
-<html><br><head><meta name="generator" content="Hexo 3.8.0"><br></head><br><body><br>    <div id="myDiv">Click Me</div><br></body><br></html>
-
+<p>事件捕获的思想就是不太具体的节点应该更早接收到事件，而最具体的节点应该最后接收到事件。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;div id=&quot;myDiv&quot;&gt;Click Me&lt;/div&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure></p>
 <p>在事件捕获的过程中，click事件则会按照以下顺序传播</p>
 <p>(1) document</p>
 <p>(2) &lt; html &gt;</p>
